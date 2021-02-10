@@ -10,10 +10,16 @@
     "express": "^4",
     "sqlite": "^3.0.6"
   },
-  "devDependencies": {
-    "sqlite3": "^5"
-  },
+  "devDependencies": {},
   "scripts": {
     "start": "cds run"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "model": "*"
+      }
+    }
   }
 }

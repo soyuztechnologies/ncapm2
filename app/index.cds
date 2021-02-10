@@ -1,3 +1,3 @@
 
 
-using from './app/studentsDetails/webapp/fiori-service';
+using from './webapp/fiori-service';
